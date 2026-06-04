@@ -42,7 +42,6 @@ class Developer:
     def mindset():
         return "Learn • Build • Break • Fix • Repeat"
 
-# Create developer object 
 dev = Developer(
     name="Arshad Moerat",
     age=41,
@@ -65,7 +64,6 @@ dev = Developer(
     ]
 )
 
-# Add Projects
 try:
     dev.add_project("MagnaFlow-Lite")
     dev.add_project("FieldSync")
@@ -76,9 +74,19 @@ try:
 except Exception as e:
     print(F"Error: {e}")
     
-# Output
 print(dev.introduce())
 print(dev.build())
 print(f"Experience Level: {dev.experience_level}")
 print(f"Mindset: {Developer.mindset()}")
 print(f"Developers Created: {Developer.total_developers}")
+
+# Output
+Hi, I'm Arshad Moerat.
+41 years old | Full Stack Software Developer
+Skills: Python, FastAPI, PostgreSQL, NextJS, React, MySQL, Typescript, Sentence Transform
+ers, Ollama, LLMs, Qdrant, Vector DBs, REST APIs, RAG Systems
+Working on: MagnaFlow-Lite, FieldSync, RepoScribe-RAG, LocalDesk-AI, StockPilot, FlowForg
+e-AI
+Experience Level: Advanced
+Mindset: Improvise, Adapt, and Overcome
+Developers Created: 1
