@@ -1,0 +1,150 @@
+# =========================
+# Core Web API Layer
+# =========================
+fastapi
+uvicorn
+starlette
+pydantic
+pydantic-settings
+python-multipart
+
+# Async Runtime (keep minimal)
+anyio
+httpx
+requests
+sniffio
+
+# =========================
+# Database Layer
+# =========================
+SQLAlchemy
+mysql-connector-python
+aiosqlite
+psycopg2-binary   # optional future portability
+pgvector          # optional if you move embeddings to SQL
+
+# =========================
+# Vector Database (RAG Core)
+# =========================
+qdrant-client
+
+# Hybrid retrieval (lightweight + useful)
+rank-bm25
+
+# =========================
+# LLM + Embeddings (Core AI Stack)
+# =========================
+ollama
+openai            # optional fallback / tooling
+
+sentence-transformers
+transformers
+tokenizers
+torch
+safetensors
+
+# Numerical backend (keep only what ML needs)
+numpy
+scipy
+scikit-learn
+
+# =========================
+# RAG Orchestration (KEEP ONLY ONE STACK)
+# =========================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-ollama
+
+# Remove llama-index entirely (duplicate abstraction layer removed)
+
+# =========================
+# Async Tasking / Workflow (Lightweight only)
+# =========================
+tenacity
+backoff
+
+# =========================
+# Data Processing / ETL
+# =========================
+pandas
+pyarrow
+regex
+tqdm
+
+# Document ingestion (ONE unified stack)
+PyMuPDF
+pypdf
+beautifulsoup4
+lxml
+unstructured
+python-docx
+
+# =========================
+# Search / NLP Utilities
+# =========================
+nltk
+textblob
+langdetect
+
+# =========================
+# Storage / Caching / Messaging
+# =========================
+redis  # (missing in your list but required logically)
+
+# =========================
+# Security & Auth
+# =========================
+bcrypt
+PyJWT
+authlib
+cryptography
+
+# =========================
+# Logging & Observability
+# =========================
+loguru
+sentry-sdk
+prometheus-client
+
+# OpenTelemetry (keep single aligned version set)
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+
+# =========================
+# API Rate Limiting / Protection
+# =========================
+slowapi
+limits
+
+# =========================
+# Config Management
+# =========================
+python-dotenv
+python-decouple
+
+# =========================
+# Background / Dev Tools
+# =========================
+watchfiles
+debugpy
+
+# =========================
+# Testing
+# =========================
+pytest
+pytest-asyncio
+
+# =========================
+# Dev / Utilities (KEEP MINIMAL)
+# =========================
+black
+ruff
+isort
+
+# =========================
+# Optional (ONLY if needed)
+# =========================
+streamlit   # admin dashboard / internal tools
