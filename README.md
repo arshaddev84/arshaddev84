@@ -88,7 +88,7 @@ print(f"Developers Created: {Developer.total_developers}")
 
 ```text
 Hi, I'm Arshad Moerat.
-41 years old | Full Stack Software Developer
+42 years old | Full Stack Software Developer
 Skills: Python, FastAPI, PostgreSQL, NextJS, React, MySQL, Typescript,
 Sentence Transformers, Ollama, LLMs, Qdrant, Vector DBs, REST APIs, RAG Systems
 
