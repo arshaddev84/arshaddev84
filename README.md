@@ -63,6 +63,7 @@ dev = Developer(
         "Vector DBs",
         "REST APIs",
         "RAG Systems"
+        "Rust"
     ]
 )
 
@@ -90,7 +91,7 @@ print(f"Developers Created: {Developer.total_developers}")
 Hi, I'm Arshad Moerat.
 42 years old | Full Stack Software Developer
 Skills: Python, FastAPI, PostgreSQL, NextJS, React, MySQL, Typescript,
-Sentence Transformers, Ollama, LLMs, Qdrant, Vector DBs, REST APIs, RAG Systems
+Sentence Transformers, Ollama, LLMs, Qdrant, Vector DBs, REST APIs, RAG Systems, Rust
 
 Working on: MagnaFlow-Lite, FieldSync, RepoScribe-RAG,
 LocalDesk-AI, StockPilot, FlowForge-AI
