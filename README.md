@@ -62,7 +62,7 @@ dev = Developer(
         "Qdrant",
         "Vector DBs",
         "REST APIs",
-        "RAG Systems"
+        "RAG Systems",
         "Rust"
     ]
 )
